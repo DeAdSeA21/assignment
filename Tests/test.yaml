@@ -1,0 +1,22 @@
+dueDate: 2025-04-28
+latePenalties: [10, 20, 100]
+test:
+  launch: ./loan
+  timelimit: 10
+  grading:
+    - oracle: smart
+      scoring: ByLine
+      ws: true
+      cap: 100
+    - oracle: smart
+      scoring: ByLine
+      numbersOnly: true
+      cap: 85
+build:
+  instructorFiles:
+    exclude:
+      - loan.cpp
+  studentFiles:
+    exclude:
+      - makefile
+  command: make -k
