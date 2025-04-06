@@ -1,0 +1,29 @@
+Test,Score,Weight,Msgs
+"builder: Attempt to build the program.",100,1,"make[1]: Entering directory '/home/shikaine/c++-apps/assignment'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/shikaine/c++-apps/assignment'
+
+--- end of output ---
+--- std error ---
+
+--------"
+"test000",93,1,"Output line 14:
+  <i>expected: </i><span class='expected'>13</span>\t3910.53
+  <i>observed: </i>-<span class='observed'>-</span>- end of output ---"
+"test001",93,1,"Output line 14:
+  <i>expected: </i><span class='expected'>13</span>\t9916.58
+  <i>observed: </i>-<span class='observed'>-</span>- end of output ---"
+"test002",93,1,"Output line 14:
+  <i>expected: </i><span class='expected'>13</span>\t39.11
+  <i>observed: </i>-<span class='observed'>-</span>- end of output ---"
+"test003",100,1,"OK"
+"test004",93,1,"Output line 14:
+  <i>expected: </i><span class='expected'>13</span>\t958.63
+  <i>observed: </i>-<span class='observed'>-</span>- end of output ---"
+"test005",100,1,"OK"
+"test006",93,1,"Output line 14:
+  <i>expected: </i><span class='expected'>13</span>\t948.00
+  <i>observed: </i>-<span class='observed'>-</span>- end of output ---"
+"test007",93,1,"Output line 14:
+  <i>expected: </i><span class='expected'>13</span>\t1010.89
+  <i>observed: </i>-<span class='observed'>-</span>- end of output ---"

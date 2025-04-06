@@ -29,12 +29,23 @@ int main (int argc, char** argv) {
     cout << "\n" << "Month" << "\t" << "Balance" << endl;
 
     // Validate input
-    
-        //TODO
-
+    if (balance < 0) {
+        balance = 0;
+    }
+    if (interestRate < 0 || interestRate > 1) {
+        interestRate = 0;
+    }
+    if (payment < 0) {
+        payment = 0;
+    }
     // Generate the monthly report
-
-        //TODO
-
+    for (int i = 1; i <= 12; i++) {
+        double interest = balance * (interestRate / 12);
+        balance = balance + interest - payment;
+        cout << i << "\t" << balance << endl;
+        if (balance < 0) {
+            break;
+        }
+    }
     return 0;
 }

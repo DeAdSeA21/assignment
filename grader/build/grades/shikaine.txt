@@ -1,0 +1,61 @@
+Grade report for build: shikaine
+
+Submitted: 2025-04-03_10:22:38
+Due: 2025-04-28
+Total: 95
+
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+builder
+score=100	weight=1	multiplier=false
+make[1]: Entering directory '/home/shikaine/c++-apps/assignment'
+make[1]: Nothing to be done for 'all'.
+make[1]: Leaving directory '/home/shikaine/c++-apps/assignment'
+
+--- end of output ---
+--- std error ---
+
+--------
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test000
+score=93	weight=1	multiplier=false
+Output line 14:
+  expected: 13\t3910.53
+  observed: --- end of output ---
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test001
+score=93	weight=1	multiplier=false
+Output line 14:
+  expected: 13\t9916.58
+  observed: --- end of output ---
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test002
+score=93	weight=1	multiplier=false
+Output line 14:
+  expected: 13\t39.11
+  observed: --- end of output ---
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test003
+score=100	weight=1	multiplier=false
+OK
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test004
+score=93	weight=1	multiplier=false
+Output line 14:
+  expected: 13\t958.63
+  observed: --- end of output ---
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test005
+score=100	weight=1	multiplier=false
+OK
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test006
+score=93	weight=1	multiplier=false
+Output line 14:
+  expected: 13\t948.00
+  observed: --- end of output ---
+=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+test007
+score=93	weight=1	multiplier=false
+Output line 14:
+  expected: 13\t1010.89
+  observed: --- end of output ---
